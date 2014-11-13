@@ -10,7 +10,7 @@ To install Essence, copy the `essence/` folder into `craft/plugins/`, and then g
 
 #### Fields
 
-Essence comes with a field that validates input when saving en entry. This saves some logic in templates and helps prevent content editors getting confused when nothing appears on the front-end.
+Essence comes with a field that validates input when saving an entry. This saves some logic in templates and helps prevent content editors getting confused when nothing appears on the front-end.
 
 ```jinja
 {# Output the URL (f.ex. http://vimeo.com/104385049) #}
@@ -31,7 +31,7 @@ Essence comes with a field that validates input when saving en entry. This saves
 
 #### Service
 
-You can just use basic text fields, which won’t get validated when saving an entry. To do so just use the `craft.essence.embed` service method.
+You can just use basic text fields, which won’t get validated when saving an entry, or other URL text values. To do so just use the `craft.essence.embed` service method.
 
 ```jinja
 {% set url = 'http://vimeo.com/104385049' %}
