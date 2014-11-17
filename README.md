@@ -45,7 +45,7 @@ You can just use basic text fields, which won’t get validated when saving an e
 {% endif %}
 ```
 
-#### Providers
+## Providers
 
 Supports the follow providers made available in [felixgirault/essence](https://github.com/felixgirault/essence).
 
