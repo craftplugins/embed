@@ -1,6 +1,6 @@
 # Craft Essence
 
-A plugin for [Craft](http://craftcms.com) that extracts media information from URLs using OEmbed and OpenGraph. It’s based on the very well built [felixgirault/essence](https://github.com/felixgirault/essence).
+A plugin for [Craft](http://craftcms.com) that extracts media information from URLs using OEmbed and OpenGraph.
 
 ## Installation
 
@@ -43,4 +43,25 @@ You can just use basic text fields, which won’t get validated when saving an e
 {% if media %}
   {{ media }}
 {% endif %}
+```
+
+#### Providers
+
+Supports the follow providers made available in [felixgirault/essence](https://github.com/felixgirault/essence).
+
+```html
+23hq                     Coub            Hulu           PollEverywhere    Spotify
+Animoto                  CrowdRanking    Ifixit         Prezi             TedOEmbed
+Aol                      DailyMile       Ifttt          Qik               TedOpenGraph
+App.net                  Dailymotion     Imgur          Rdio              Twitter
+Bambuser                 Deviantart      Instagram      Revision3         Ustream
+Bandcamp                 Dipity          Jest           Roomshare         Vhx
+Blip.tv                  Dotsub          Justin.tv      Sapo              Viddler
+Cacoo                    Edocr           Kickstarter    Screenr           Videojug
+CanalPlus                Flickr          Meetup         Scribd            Vimeo
+Chirb.it                 FunnyOrDie      Mixcloud       Shoudio           Vine
+CircuitLab               Gist            Mobypicture    Sketchfab         Wistia
+Clikthrough              Gmep            Nfb            SlideShare        WordPress
+CollegeHumorOEmbed       HowCast         Official.fm    SoundCloud        Yfrog
+CollegeHumorOpenGraph    Huffduffer      Polldaddy      SpeakerDeck       Youtube
 ```
