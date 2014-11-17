@@ -4,7 +4,8 @@ A plugin for [Craft](http://craftcms.com) that extracts media information from U
 
 ## Installation
 
-To install Essence, copy the `essence/` folder into `craft/plugins/`, and then go to Settings > Plugins and click the “Install” button next to “Essence”.
+1. Copy the `essence/` folder into `craft/plugins/`
+2. Go to Settings → Plugins and click the “Install” button next to “Essence”
 
 ## Usage
 
