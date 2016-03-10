@@ -6,4 +6,8 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Parkour\\' => array($vendorDir . '/fg/parkour/lib'),
+    'Essence\\Http\\' => array($vendorDir . '/essence/http/src'),
+    'Essence\\Dom\\' => array($vendorDir . '/essence/dom/src'),
+    'Essence\\' => array($vendorDir . '/essence/essence/lib/Essence'),
 );
