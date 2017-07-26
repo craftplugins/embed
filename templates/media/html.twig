@@ -1,0 +1,29 @@
+<div class="embed-preview embed-preview--{{ media.type }}">
+  {% if media.type == 'rich' %}
+    {{ media.html }}
+  {% else %}
+    {% set ratio = (media.height|default(9) / media.width|default(16)) %}
+    {% if media.thumbnailUrl or media.html %}
+      <div class="embed-preview__media">
+        <div class="embed-preview__media__content" style="padding-bottom:{{ ratio * 100 }}%">
+          {% if media.type == 'video' %}
+            {{ media.html }}
+          {% else %}
+            <div style="background-image:url('{{ media.thumbnailUrl }}');"></div>
+          {% endif %}
+        </div>
+      </div>
+    {% endif %}
+    <div class="embed-preview__summary">
+      {% if media.title %}
+        <h2>{{ media.title }}</h2>
+      {% endif %}
+      {% if media.description %}
+        <p>{{ media.description|nl2br }}</p>
+      {% endif %}
+      {% if media.providerName %}
+        <p class="light">{{ media.providerName }}</p>
+      {% endif %}
+    </div>
+  {% endif %}
+</div>

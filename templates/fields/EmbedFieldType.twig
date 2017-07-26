@@ -1,0 +1,36 @@
+{#
+/**
+ * Embed plugin for Craft CMS
+ *
+ * EmbedFieldType HTML
+ *
+ * @author    Joshua Baker
+ * @copyright Copyright (c) 2017 Joshua Baker
+ * @link      https://joshuabaker.com/
+ * @package   Embed
+ * @since     0.1.0
+ */
+#}
+
+{% import '_includes/forms' as forms %}
+
+<div class="embed-field">
+  {% set input %}
+    {{ forms.text({
+      class: 'embed-field__input',
+      name: name,
+      value: value,
+    }) }}
+    <div class="spinner hidden embed-field__spinner"></div>
+  {% endset %}
+
+  {{ forms.field({}, input) }}
+
+  <div class="embed-field__media">
+    {% if value.type is defined %}
+      {% include 'embed/media/html' with {
+        media: value
+      } %}
+    {% endif %}
+  </div>
+</div>

@@ -1,0 +1,15 @@
+{
+	"name": "joshuabaker/craft-embed",
+	"description": "Craft CMS plugin that extracts information about web pages, like Youtube videos, Twitter statuses or blog articles.",
+	"type": "craft-plugin",
+	"authors": [
+		{
+			"name": "Joshua Baker",
+			"homepage": "https://joshuabaker.com/"
+		}
+	],
+	"require": {
+		"composer/installers": "~1.0",
+		"essence/essence": "^3.4"
+	}
+}
