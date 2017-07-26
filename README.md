@@ -1,4 +1,4 @@
-<img src="https://rawgit.com/joshuabaker/craft-embed/master/resources/icon.svg" width="72">
+<img src="https://cdn.rawgit.com/joshuabaker/craft-embed/752502faba7958bdd018ef5ff2f38813642fe54f/resources/icon.svg" width="72">
 
 # Embed plugin for Craft CMS
 
