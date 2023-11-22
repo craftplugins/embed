@@ -1,4 +1,8 @@
-<img src="https://cdn.rawgit.com/joshuabaker/craft-embed/f848c178/resources/icon.svg" width="72">
+> [!IMPORTANT]
+>
+> **This plugin is no longer maintained.**
+>
+> We recommend the [Embedded Assets plugin](https://plugins.craftcms.com/embeddedassets) or the [oEmbed plugin](https://plugins.craftcms.com/oembed) instead.
 
 # Embed plugin for Craft CMS
 
